@@ -17,6 +17,14 @@ class ExpenseTracker:
            raise ValueError("Value should be greater than 0")
            
 
+    def add_expenses(self,amount):
+        self._amount += amount
+        return self.amount
+    
+    
+
+        
+
         
 
     
