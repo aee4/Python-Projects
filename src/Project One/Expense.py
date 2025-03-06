@@ -1,4 +1,3 @@
-import json
 class Expense:
     def __init__(self, expense_id: str, description: str, amount: float, date: str):
         self.expense_id = expense_id
